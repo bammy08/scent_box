@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import './globals.css';
+import Providers from './Providers';
 
 export const metadata = {
   title: 'Favvy Scent Box',
@@ -13,11 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header />
-        <Navbar />
-        <Hero />
-        {children}
-        <Footer />
+        <Providers>
+          <Header />
+          <Navbar />
+          <Hero />
+          {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

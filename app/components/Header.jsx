@@ -4,6 +4,7 @@ import { GiPerfumeBottle } from 'react-icons/gi';
 import { BsCartFill } from 'react-icons/bs';
 import Image from 'next/image';
 import avatar from 'public/avatar.png';
+import DarkMode from './DarkMode';
 
 const Header = () => {
   return (
@@ -16,6 +17,9 @@ const Header = () => {
             Box
           </span>
         </Link>
+      </div>
+      <div>
+        <DarkMode />
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end">

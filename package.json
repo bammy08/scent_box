@@ -17,10 +17,12 @@
     "flowbite-react": "^0.4.2",
     "framer-motion": "^10.2.3",
     "next": "13.2.3",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "react-toastify": "^9.1.1"
+    "react-toastify": "^9.1.1",
+    "recoil": "^0.7.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
